@@ -146,7 +146,7 @@ acceptance_rate = accepted / (num_iter - 1)
 print(acceptance_rate)
 
 
-# even though the priors are calculated independently, the posterior distributuon may still show some dependence between them
+
 plt.figure(figsize=(8, 6))
 plt.scatter(mu_draws, sigma_draws, alpha=0.3)
 plt.xlabel("Mu")
